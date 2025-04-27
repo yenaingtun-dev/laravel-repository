@@ -1,0 +1,35 @@
+{
+  "name": "yenaingtun-dev/laravel-repository",
+  "description": "Laravel command for repository",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "role": "Developer",
+      "name": "Ye Naing Tun",
+      "email": "yenaingtun425@gmail.com",
+      "homepage": "https://yenaingtun-portfolio.vercel.app/"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "yenaingtun\\DataObjects\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "yenaingtun\\DataObjects\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": "^8.2"
+  },
+  "require-dev": {},
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "sort-packages": true,
+    "preferred-install": "dist",
+    "optimize-autoloader": true
+  }
+}
